@@ -8,8 +8,8 @@ public class Calculator {
         int five = 5;
         int six = 6;
         int onePlusTwo = one + two;
-        int sixDivTwo = six / 2;
-        int fiveMinusTwo = five - 2;
+        int sixDivTwo = six / two;
+        int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
