@@ -9,12 +9,12 @@ public class Fit {
         System.out.println("Woman 187 is " + woman);
     }
 
-    private static double womanWeight(int height) {
+    public static double womanWeight(int height) {
         double rsl = (height - 110) * 1.15;
         return rsl;
     }
 
-    private static double manWeight(short height) {
+    public static double manWeight(short height) {
         double rsl = (height - 100) * 1.15;
         return rsl;
     }
