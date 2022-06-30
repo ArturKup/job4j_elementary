@@ -8,8 +8,6 @@ public class TrgArea {
 
     private static double area(double a, double b, double c) {
         double p = (a + b + c) / 2;
-        double rsl = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-        rsl = Math.round(rsl * 100.0) / 100.0;
-        return rsl;
+        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
 }
