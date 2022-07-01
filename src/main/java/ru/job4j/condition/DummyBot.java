@@ -5,10 +5,10 @@ public class DummyBot {
         String rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
         if ("Привет, Бот.".equals(question)) {
             System.out.println("Привет, умник.");
-            rsl = question;
+            rsl = "Привет, умник.";
         } else if ("Пока.".equals(question)) {
             System.out.println("До скорой встречи.");
-            rsl = question;
+            rsl = "До скорой встречи.";
         }
         return rsl;
     }
