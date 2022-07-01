@@ -7,8 +7,8 @@ public class Max {
     }
 
     public static void main(String[] args) {
-        max(1,2);
-        max(2,1);
-        max(2,2);
+        max(1, 2);
+        max(2, 1);
+        max(2, 2);
     }
 }
