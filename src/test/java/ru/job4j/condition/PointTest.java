@@ -36,4 +36,14 @@ public class PointTest {
         double eps = 0.001;
         Assert.assertEquals(expected, result, eps);
     }
+
+    @Test
+    public void whenX11Y11Z11X24Y24Z24Then5dot196() {
+        double expected = 5.196;
+        Point pt1 = new Point(1, 1, 1);
+        Point pt2 = new Point(4, 4, 4);
+        double result = pt1.distance3d(pt2);
+        double eps = 0.001;
+        Assert.assertEquals(expected, result, eps);
+    }
 }
