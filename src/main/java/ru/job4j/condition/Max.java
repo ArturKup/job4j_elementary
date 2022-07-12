@@ -10,10 +10,6 @@ public class Max {
     }
 
     public int maxForFourNumbers(int first, int second, int third, int fourth) {
-        return max(fourth, max(first, max(second, third)));
-    }
-
-    public static void main(String[] args) {
-
+        return max(fourth, maxForThreeNumbers(first, second, third));
     }
 }
